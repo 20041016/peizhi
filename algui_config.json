@@ -11,7 +11,7 @@
         {"name": "果盘",   "package": "com.zmsy.zmxy4.guopan"},
         {"name": "腾讯",   "package": "com.tencent.tmgp.zmxy"},
         {"name": "六六",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
-          {"name": "测试",   "package": "123"}
+        {"name": "测试",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
     ],
     "detect_keywords": [
         "org.cocos2dx.zmxy",
@@ -94,14 +94,14 @@
             "description": "定怪",
             "memory_range": "RANGE_OTHER",
             "search": {
-                   “version":“1.0“,"value": "89637",
+                "value": "89637",
                 "type": "DWORD"
             },
-            "offsets": [   "offsets": [
+            "offsets": [
                 {"value": "9635", "type": "DWORD", "offset": -16},
                 {"value": "19636", "type": "DWORD", "offset": -8}
             ],
-            "writes": [   "writes": [
+            "writes": [
                 {"value": "30000", "type": "DWORD", "offset": -10},
                 {"value": "30000", "type": "DWORD", "offset": -8},
                 {"value": "30000", "type": "DWORD", "offset": 0},
@@ -110,43 +110,43 @@
         },
         "free_rename": {
             "name": "免费改名",
-            "description": "免费改名",   "description"   "description": "免费改名",
-            "memory_range": "RANGE_C_ALLOC","memory_range"   "memory_range": "RANGE_C_ALLOC"   "RANGE_C_ALLOC",
-            "search": {   "search"   "search": {
-                "value": "2005",   "value"   "value": "2005",
-                "type": "DWORD"   "type": "DWORD"
+            "description": "免费改名",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "2005",
+                "type": "DWORD"
             },
-            "offsets": [   "offsets": [
-                {"value": "-491520", "type": "DWORD", "offset": 4},{"value"   "value": "-491520", "type": "DWORD", "offset": 4},
-                {"value": "0", "type": "DWORD", "offset": 8}{"value"   "value": "0", "type": "DWORD", "offset": 8}
+            "offsets": [
+                {"value": "-491520", "type": "DWORD", "offset": 4},
+                {"value": "0", "type": "DWORD", "offset": 8}
             ],
-            "writes": [   "writes": [
-                {"value": "1", "type": "DWORD", "offset": 8}{"value"   "value": "1", "type": "DWORD", "offset": 8}
+            "writes": [
+                {"value": "1", "type": "DWORD", "offset": 8}
             ]
         },
-        "yellow_bird": {   “yellow_bird": {
+        "yellow_bird": {
             "name": "黄鸟积分",
-            "description": "进入凤凰秘境后开启","description"   "description": "进入凤凰秘境后开启",
-            "memory_range": "RANGE_OTHER","memory_range"   "memory_range": "RANGE_OTHER",
-            "search": {   "search"   "search": {
-                "value": "-294912",   “value":“-294912”,
-                "type": "DWORD"   "type": "DWORD"
+            "description": "进入凤凰秘境后开启",
+            "memory_range": "RANGE_OTHER",
+            "search": {
+                "value": "-294912",
+                "type": "DWORD"
             },
-            "offsets": [   "offsets": [
-                {"value": "0", "type": "DWORD", "offset": 124},{"value"   "value": "0", "type": "DWORD", "offset": 124},
-                {"value": "-458752", "type": "DWORD", "offset": 128},{"value"   "value": "-458752", "type": "DWORD", "offset": 128},
-                {"value": "0", "type": "DWORD", "offset": -4},{"value"   "value": "0", "type": "DWORD", "offset": -4},
-                {"value": "-491520", "type": "DWORD", "offset": 8},{"value"   "value": "-491520", "type": "DWORD", "offset": 8},
-                {"value": "-491520", "type": "DWORD", "offset": 16},{"value"   "value": "-491520", "type": "DWORD", "offset": 16},
-                {"value": "-491520", "type": "DWORD", "offset": 24},{"value"   "value": "-491520", "type": "DWORD", "offset": 24},
-                {"value": "0", "type": "DWORD", "offset": 68},{"value"   "value": "0", "type": "DWORD", "offset": 68},
-                {"value": "0", "type": "DWORD", "offset": 72},{"value"   "value": "0", "type": "DWORD", "offset": 72},
-                {"value": "0", "type": "DWORD", "offset": 116},{"value"   "value": "0", "type": "DWORD", "offset": 116},
-                {"value": "-458752", "type": "DWORD", "offset": 120}{"value"   "value": "-458752", "type": "DWORD", "offset": 120}
+            "offsets": [
+                {"value": "0", "type": "DWORD", "offset": 124},
+                {"value": "-458752", "type": "DWORD", "offset": 128},
+                {"value": "0", "type": "DWORD", "offset": -4},
+                {"value": "-491520", "type": "DWORD", "offset": 8},
+                {"value": "-491520", "type": "DWORD", "offset": 16},
+                {"value": "-491520", "type": "DWORD", "offset": 24},
+                {"value": "0", "type": "DWORD", "offset": 68},
+                {"value": "0", "type": "DWORD", "offset": 72},
+                {"value": "0", "type": "DWORD", "offset": 116},
+                {"value": "-458752", "type": "DWORD", "offset": 120}
             ],
-            "writes": [   "writes": [
-                {"value": "444", "type": "DWORD", "offset": 20}{"value"   "value": "444", "type": "DWORD", "offset": 20}
+            "writes": [
+                {"value": "444", "type": "DWORD", "offset": 20}
             ]
         }
     }
-        }
+}
