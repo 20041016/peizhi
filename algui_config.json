@@ -11,6 +11,7 @@
         {"name": "果盘",   "package": "com.zmsy.zmxy4.guopan"},
         {"name": "腾讯",   "package": "com.tencent.tmgp.zmxy"},
         {"name": "六六",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
+          {"name": "测试",   "package": "123"}
     ],
     "detect_keywords": [
         "org.cocos2dx.zmxy",
