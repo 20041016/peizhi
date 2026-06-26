@@ -1,0 +1,133 @@
+{
+    "version": "1.0",
+    "features": {
+        "anti_ban": {
+            "name": "防封",
+            "description": "在长安城开启",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "8423627",
+                "type": "DWORD"
+            },
+            "offsets": [],
+            "writes": [
+                {"value": "-2003330816", "type": "DWORD", "offset": -4},
+                {"value": "0", "type": "DWORD", "offset": -8},
+                {"value": "0", "type": "DWORD", "offset": -12},
+                {"value": "0", "type": "DWORD", "offset": -16},
+                {"value": "0", "type": "DWORD", "offset": -20},
+                {"value": "0", "type": "DWORD", "offset": -24},
+                {"value": "0", "type": "DWORD", "offset": -28},
+                {"value": "0", "type": "DWORD", "offset": -32},
+                {"value": "0", "type": "DWORD", "offset": -36},
+                {"value": "0", "type": "DWORD", "offset": -40},
+                {"value": "1", "type": "DWORD", "offset": -44}
+            ]
+        },
+        "top_value": {
+            "name": "顶级数值",
+            "description": "9178",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "-343597384",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "1067366481", "type": "DWORD", "offset": 4},
+                {"value": "-2147483648", "type": "DWORD", "offset": 12},
+                {"value": "-491520", "type": "DWORD", "offset": 20},
+                {"value": "-491520", "type": "DWORD", "offset": 28},
+                {"value": "-491520", "type": "DWORD", "offset": 36}
+            ],
+            "writes": [
+                {"value": "917800000", "type": "DWORD", "offset": 16},
+                {"value": "917800000", "type": "DWORD", "offset": 24},
+                {"value": "917800000", "type": "DWORD", "offset": 32},
+                {"value": "8888888", "type": "DOUBLE", "offset": 72},
+                {"value": "8888888", "type": "DOUBLE", "offset": 80},
+                {"value": "100000", "type": "DOUBLE", "offset": 56},
+                {"value": "8888888", "type": "DOUBLE", "offset": 88}
+            ]
+        },
+        "fullscreen_attack": {
+            "name": "全屏攻击",
+            "description": "全屏攻击",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "23871",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "13633", "type": "DWORD", "offset": 32},
+                {"value": "54", "type": "DWORD", "offset": 20}
+            ],
+            "writes": [
+                {"value": "-1138098176", "type": "DWORD", "offset": 40},
+                {"value": "469762047", "type": "DWORD", "offset": 44},
+                {"value": "-68", "type": "DWORD", "offset": 72},
+                {"value": "-68", "type": "DWORD", "offset": 100},
+                {"value": "-17374", "type": "DWORD", "offset": 128},
+                {"value": "3546367", "type": "DWORD", "offset": 132}
+            ]
+        },
+        "freeze_monster": {
+            "name": "定怪",
+            "description": "定怪",
+            "memory_range": "RANGE_OTHER",
+            "search": {
+                "value": "89637",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "9635", "type": "DWORD", "offset": -16},
+                {"value": "19636", "type": "DWORD", "offset": -8}
+            ],
+            "writes": [
+                {"value": "30000", "type": "DWORD", "offset": -10},
+                {"value": "30000", "type": "DWORD", "offset": -8},
+                {"value": "30000", "type": "DWORD", "offset": 0},
+                {"value": "999999999", "type": "DWORD", "offset": 24}
+            ]
+        },
+        "free_rename": {
+            "name": "免费改名",
+            "description": "免费改名",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "2005",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "-491520", "type": "DWORD", "offset": 4},
+                {"value": "0", "type": "DWORD", "offset": 8}
+            ],
+            "writes": [
+                {"value": "1", "type": "DWORD", "offset": 8}
+            ]
+        },
+        "yellow_bird": {
+            "name": "黄鸟积分",
+            "description": "进入凤凰秘境后开启",
+            "memory_range": "RANGE_OTHER",
+            "search": {
+                "value": "-294912",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "0", "type": "DWORD", "offset": 124},
+                {"value": "-458752", "type": "DWORD", "offset": 128},
+                {"value": "0", "type": "DWORD", "offset": -4},
+                {"value": "-491520", "type": "DWORD", "offset": 8},
+                {"value": "-491520", "type": "DWORD", "offset": 16},
+                {"value": "-491520", "type": "DWORD", "offset": 24},
+                {"value": "0", "type": "DWORD", "offset": 68},
+                {"value": "0", "type": "DWORD", "offset": 72},
+                {"value": "0", "type": "DWORD", "offset": 116},
+                {"value": "-458752", "type": "DWORD", "offset": 120}
+            ],
+            "writes": [
+                {"value": "444", "type": "DWORD", "offset": 20}
+            ]
+        }
+    }
+}
