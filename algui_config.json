@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "1.1",
     "channels": [
         {"name": "当乐",   "package": "org.cocos2dx.zmxy.dl"},
         {"name": "TapTap", "package": "org.cocos2dx.zmxy.taptap"},
@@ -11,7 +11,6 @@
         {"name": "果盘",   "package": "com.zmsy.zmxy4.guopan"},
         {"name": "腾讯",   "package": "com.tencent.tmgp.zmxy"},
         {"name": "六六",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
-       
     ],
     "detect_keywords": [
         "org.cocos2dx.zmxy",
@@ -23,6 +22,8 @@
         "anti_ban": {
             "name": "防封",
             "description": "在长安城开启",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！",
             "memory_range": "RANGE_C_ALLOC",
             "search": {
                 "value": "8423627",
@@ -46,6 +47,8 @@
         "top_value": {
             "name": "顶级数值",
             "description": "9178",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！",
             "memory_range": "RANGE_C_ALLOC",
             "search": {
                 "value": "-343597384",
@@ -71,6 +74,8 @@
         "fullscreen_attack": {
             "name": "全屏攻击",
             "description": "全屏攻击",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！重启游戏生效",
             "memory_range": "RANGE_C_ALLOC",
             "search": {
                 "value": "23871",
@@ -92,6 +97,8 @@
         "freeze_monster": {
             "name": "定怪",
             "description": "定怪",
+            "enable_msg": "开启成功！",
+            "disable_msg": "重启游戏生效",
             "memory_range": "RANGE_OTHER",
             "search": {
                 "value": "89637",
@@ -111,6 +118,8 @@
         "free_rename": {
             "name": "免费改名",
             "description": "免费改名",
+            "enable_msg": "开启成功！",
+            "disable_msg": "重启游戏生效！",
             "memory_range": "RANGE_C_ALLOC",
             "search": {
                 "value": "2005",
@@ -127,6 +136,8 @@
         "yellow_bird": {
             "name": "黄鸟积分",
             "description": "进入凤凰秘境后开启",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！",
             "memory_range": "RANGE_OTHER",
             "search": {
                 "value": "-294912",
