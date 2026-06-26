@@ -5,9 +5,38 @@
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `version` | string | 配置版本号，改不改都行，每次打开App会拉最新 |
+| `app_update` | object | 应用更新配置（见下方） |
 | `channels` | array | 渠道列表，显示在"目标游戏"选择器里 |
 | `detect_keywords` | array | 自动检测游戏进程用的关键字（包名前缀） |
 | `features` | object | 功能列表，每个key就是一个开关 |
+
+---
+
+## app_update（应用更新）
+
+```json
+"app_update": {
+    "version_code": 3,
+    "version_name": "3.0",
+    "force": true,
+    "download_url": "https://xxx.apk",
+    "update_msg": "发现新版本，请更新！"
+}
+```
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `version_code` | int | 远程版本号（整数），比App的versionCode大就触发更新 |
+| `version_name` | string | 版本名，显示在弹窗标题 |
+| `force` | boolean | true=强制更新（不可取消），false=可点"稍后"跳过 |
+| `download_url` | string | APK下载链接，点击"立即更新"会跳转浏览器 |
+| `update_msg` | string | 弹窗正文内容 |
+
+**触发逻辑：** App启动时比较 `app_update.version_code` 和 App内置的 `versionCode`，远程更大就弹窗。
+
+**强制更新（force=true）：** 弹窗不可取消，用户只能点"立即更新"，不更新打不开。
+
+**非强制更新（force=false）：** 弹窗可以点"稍后"跳过，正常进入。
 
 ---
 
