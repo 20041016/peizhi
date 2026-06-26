@@ -1,5 +1,5 @@
 {
-    "version": "1.1",
+    "version": "1.2",
     "channels": [
         {"name": "当乐",   "package": "org.cocos2dx.zmxy.dl"},
         {"name": "TapTap", "package": "org.cocos2dx.zmxy.taptap"},
@@ -11,7 +11,7 @@
         {"name": "果盘",   "package": "com.zmsy.zmxy4.guopan"},
         {"name": "腾讯",   "package": "com.tencent.tmgp.zmxy"},
         {"name": "六六",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
-        {"name": "测试",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
+        {"name": "测试",   "package": "com.zmsy.zmxy4.guopan.ceshi"}
     ],
     "detect_keywords": [
         "org.cocos2dx.zmxy",
