@@ -23,7 +23,7 @@
             "name": "防封",
             "description": "在长安城开启",
             "enable_msg": "开启成功！",
-            "disable_msg": "关闭成功！",
+            "disable_msg": "重启游戏生效！",
             "memory_range": "RANGE_C_ALLOC",
             "search": {
                 "value": "8423627",
@@ -48,7 +48,7 @@
             "name": "顶级数值",
             "description": "9178",
             "enable_msg": "开启成功！",
-            "disable_msg": "关闭成功！",
+            "disable_msg": "重启游戏生效！",
             "memory_range": "RANGE_C_ALLOC",
             "search": {
                 "value": "-343597384",
@@ -137,7 +137,7 @@
             "name": "黄鸟积分",
             "description": "进入凤凰秘境后开启",
             "enable_msg": "开启成功！",
-            "disable_msg": "关闭成功！",
+            "disable_msg": "重启游戏生效！",
             "memory_range": "RANGE_OTHER",
             "search": {
                 "value": "-294912",
