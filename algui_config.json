@@ -1,9 +1,10 @@
 {
     "version": "1.1",
+    "purchase_url": "https://aistudio.xiaomimimo.com/#/",
     "app_update": {
         "version_code": 2,
         "version_name": "2.0",
-        "force": true,
+        "force": false,
         "download_url": "https://你的下载链接.apk",
         "update_msg": "发现新版本，请更新！"
     },
@@ -170,50 +171,6 @@
             "writes": [
                 {"value": "444", "type": "DWORD", "offset": 20}
             ]
-        },
-        "宠物秘境时间": {
-    "name": "宠物秘境时间",
-    "description": "修改时间数值为150",
-    "enable_msg": "时间开启成功，共修改4个值",
-    "disable_msg": "重启游戏生效！",
-   "depends_on": "anti_ban",
-     "memory_range": "RANGE_C_ALLOC",
-    "search": {
-        "value": "-491520",
-        "type": "DWORD"
-    },
-    "offsets": [
-        { "value": "4.243748739E-314", "type": "DOUBLE", "offset": -32 },
-        { "value": "1.294415004057E-312", "type": "DOUBLE", "offset": -8 },
-        { "value": "1.8010772393448525E-226", "type": "DOUBLE", "offset": 32 },
-        { "value": "0.016666666666666666", "type": "DOUBLE", "offset": 36 }
-    ],
-    "writes": [
-        { "value": "150", "type": "DOUBLE", "offset": 4 }
-    ]
-},
-"宠物秘境时间关闭": {
-    "name": "宠物秘境结算",
-    "description": "修改时间数值为5",
-    "enable_msg": "时间开启成功，共修改4个值",
-    "disable_msg": "重启游戏生效！",
-   "depends_on": "anti_ban",
-    "memory_range": "RANGE_C_ALLOC",
-    "search": {
-        "value": "-491520",
-        "type": "DWORD"
-    },
-    "offsets": [
-        { "value": "4.243748739E-314", "type": "DOUBLE", "offset": -32 },
-        { "value": "1.294415004057E-312", "type": "DOUBLE", "offset": -8 },
-     
-        { "value": "1.8010772393448525E-226", "type": "DOUBLE", "offset": 32 },
-        { "value": "0.016666666666666666", "type": "DOUBLE", "offset": 36 }
-    ],
-    "writes": [
-        { "value": "5", "type": "DOUBLE", "offset": 4 }
-    ]
-}
+        }
     }
 }
-   
