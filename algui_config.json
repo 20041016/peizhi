@@ -172,6 +172,48 @@
             "writes": [
                 {"value": "444", "type": "DWORD", "offset": 20}
             ]
-        }
+        },
+        "时间功能": {
+    "name": "宠物时间延迟",
+    "description": "修改时间为150",
+    "enable_msg": "修改时间为150",
+    "disable_msg": "重启游戏生效！",
+    "memory_range": "RANGE_C_ALLOC",
+    "search": {
+        "value": "-491520",
+        "type": "DWORD"
+    },
+    "offsets": [
+        {"value": "4.243748739E-314",      "type": "DOUBLE", "offset": -32},
+        {"value": "1.294415004057E-312",    "type": "DOUBLE", "offset": -8},
+        {"value": "2.121752948E-314",       "type": "DOUBLE", "offset": 24},
+        {"value": "1.8010772393448525E-226", "type": "DOUBLE", "offset": 32},
+        {"value": "0.016666666666666666",   "type": "DOUBLE", "offset": 36}
+    ],
+    "writes": [
+        {"value": "150", "type": "DOUBLE", "offset": 4}
+    ]
+},
+        "时间功能2": {
+    "name": "宠物时间结算",
+    "description": "修改时间为5",
+    "enable_msg": "时间·开启成功，共修改4个值",
+    "disable_msg": "重启游戏生效！",
+    "memory_range": "RANGE_C_ALLOC",
+    "search": {
+        "value": "-491520",
+        "type": "DWORD"
+    },
+    "offsets": [
+        {"value": "4.243748739E-314",      "type": "DOUBLE", "offset": -32},
+        {"value": "1.294415004057E-312",    "type": "DOUBLE", "offset": -8},
+        {"value": "2.121752948E-314",       "type": "DOUBLE", "offset": 24},
+        {"value": "1.8010772393448525E-226", "type": "DOUBLE", "offset": 32},
+        {"value": "0.016666666666666666",   "type": "DOUBLE", "offset": 36}
+    ],
+    "writes": [
+        {"value": "5", "type": "DOUBLE", "offset": 4}
+    ]
+}
     }
 }
