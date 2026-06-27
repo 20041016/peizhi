@@ -1,1 +1,221 @@
-
+{
+  "version": "1",
+  "app_update": {
+    "version_code": 3,
+    "version_name": "3.0",
+    "force": true,
+    "download_url": "https://1853394323.share.123pan.cn/123pan/es8Yvd-4yMkd",
+    "update_msg": "发现新版本，请更新！",
+    "purchase_url": "https://h5.m.goofish.com/item?forceFlush=1&id=885716054283&ut_sk=1.Z%2BYwaWYtFOUDAHPSqPWOZYQm_12431167_1782561970598.Copy.detail.885716054283.2218932051853",
+    "purchase_text": "点我购买"
+  },
+    "channels": [
+        {"name": "当乐",   "package": "org.cocos2dx.zmxy.dl"},
+        {"name": "TapTap", "package": "org.cocos2dx.zmxy.taptap"},
+        {"name": "小米",   "package": "org.cocos2dx.zmxy.mi"},
+        {"name": "Vivo",   "package": "com.m4399.zmxy.vivo"},
+        {"name": "OPPO",   "package": "org.cocos2dx.zmxy.nearme.gamecenter"},
+        {"name": "九游",   "package": "org.cocos2dx.zmxy.aligames"},
+        {"name": "4399",   "package": "org.cocos2dx.zmxy.m4399"},
+        {"name": "果盘",   "package": "com.zmsy.zmxy4.guopan"},
+        {"name": "腾讯",   "package": "com.tencent.tmgp.zmxy"},
+        {"name": "六六",   "package": "com.zmsy.zmxy4.guopan.liuliu"}
+    ],
+    "detect_keywords": [
+        "org.cocos2dx.zmxy",
+        "com.m4399.zmxy",
+        "com.zmsy.zmxy",
+        "com.tencent.tmgp.zmxy"
+    ],
+    "features": {
+        "anti_ban": {
+            "name": "防封",
+            "description": "在长安城开启",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "8423627",
+                "type": "DWORD"
+            },
+            "offsets": [],
+            "writes": [
+                {"value": "-2003330816", "type": "DWORD", "offset": -4},
+                {"value": "0", "type": "DWORD", "offset": -8},
+                {"value": "0", "type": "DWORD", "offset": -12},
+                {"value": "0", "type": "DWORD", "offset": -16},
+                {"value": "0", "type": "DWORD", "offset": -20},
+                {"value": "0", "type": "DWORD", "offset": -24},
+                {"value": "0", "type": "DWORD", "offset": -28},
+                {"value": "0", "type": "DWORD", "offset": -32},
+                {"value": "0", "type": "DWORD", "offset": -36},
+                {"value": "0", "type": "DWORD", "offset": -40},
+                {"value": "1", "type": "DWORD", "offset": -44}
+            ]
+        },
+        "top_value": {
+            "name": "顶级数值",
+            "description": "9178",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！",
+            "depends_on": "anti_ban",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "-343597384",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "1067366481", "type": "DWORD", "offset": 4},
+                {"value": "-2147483648", "type": "DWORD", "offset": 12},
+                {"value": "-491520", "type": "DWORD", "offset": 20},
+                {"value": "-491520", "type": "DWORD", "offset": 28},
+                {"value": "-491520", "type": "DWORD", "offset": 36}
+            ],
+            "writes": [
+                {"value": "917800000", "type": "DWORD", "offset": 16},
+                {"value": "917800000", "type": "DWORD", "offset": 24},
+                {"value": "917800000", "type": "DWORD", "offset": 32},
+                {"value": "8888888", "type": "DOUBLE", "offset": 72},
+                {"value": "8888888", "type": "DOUBLE", "offset": 80},
+                {"value": "100000", "type": "DOUBLE", "offset": 56},
+                {"value": "8888888", "type": "DOUBLE", "offset": 88}
+            ]
+        },
+        "fullscreen_attack": {
+            "name": "全屏攻击",
+            "description": "全屏攻击",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！重启游戏生效",
+            "depends_on": "anti_ban",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "23871",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "13633", "type": "DWORD", "offset": 32},
+                {"value": "54", "type": "DWORD", "offset": 20}
+            ],
+            "writes": [
+                {"value": "-1138098176", "type": "DWORD", "offset": 40},
+                {"value": "469762047", "type": "DWORD", "offset": 44},
+                {"value": "-68", "type": "DWORD", "offset": 72},
+                {"value": "-68", "type": "DWORD", "offset": 100},
+                {"value": "-17374", "type": "DWORD", "offset": 128},
+                {"value": "3546367", "type": "DWORD", "offset": 132}
+            ]
+        },
+        "freeze_monster": {
+            "name": "定怪",
+            "description": "定怪",
+            "enable_msg": "开启成功！",
+            "disable_msg": "重启游戏生效",
+            "depends_on": "anti_ban",
+            "memory_range": "RANGE_OTHER",
+            "search": {
+                "value": "89637",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "9635", "type": "DWORD", "offset": -16},
+                {"value": "19636", "type": "DWORD", "offset": -8}
+            ],
+            "writes": [
+                {"value": "30000", "type": "DWORD", "offset": -10},
+                {"value": "30000", "type": "DWORD", "offset": -8},
+                {"value": "30000", "type": "DWORD", "offset": 0},
+                {"value": "999999999", "type": "DWORD", "offset": 24}
+            ]
+        },
+        "free_rename": {
+            "name": "免费改名",
+            "description": "免费改名",
+            "enable_msg": "开启成功！",
+            "disable_msg": "重启游戏生效！",
+            "depends_on": "anti_ban",
+            "memory_range": "RANGE_C_ALLOC",
+            "search": {
+                "value": "2005",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "-491520", "type": "DWORD", "offset": 4},
+                {"value": "0", "type": "DWORD", "offset": 8}
+            ],
+            "writes": [
+                {"value": "1", "type": "DWORD", "offset": 8}
+            ]
+        },
+        "yellow_bird": {
+            "name": "黄鸟积分",
+            "description": "进入凤凰秘境后开启",
+            "enable_msg": "开启成功！",
+            "disable_msg": "关闭成功！",
+            "depends_on": "anti_ban",
+            "memory_range": "RANGE_OTHER",
+            "search": {
+                "value": "-294912",
+                "type": "DWORD"
+            },
+            "offsets": [
+                {"value": "0", "type": "DWORD", "offset": 124},
+                {"value": "-458752", "type": "DWORD", "offset": 128},
+                {"value": "0", "type": "DWORD", "offset": -4},
+                {"value": "-491520", "type": "DWORD", "offset": 8},
+                {"value": "-491520", "type": "DWORD", "offset": 16},
+                {"value": "-491520", "type": "DWORD", "offset": 24},
+                {"value": "0", "type": "DWORD", "offset": 68},
+                {"value": "0", "type": "DWORD", "offset": 72},
+                {"value": "0", "type": "DWORD", "offset": 116},
+                {"value": "-458752", "type": "DWORD", "offset": 120}
+            ],
+            "writes": [
+                {"value": "444", "type": "DWORD", "offset": 20}
+            ]
+        },
+        "时间功能": {
+    "name": "宠物秘境延迟",
+    "description": "修改时间为150",
+    "enable_msg": "修改时间为150",
+          "depends_on": "anti_ban",
+    "disable_msg": "重启游戏生效！",
+    "memory_range": "RANGE_C_ALLOC",
+    "search": {
+        "value": "-491520",
+        "type": "DWORD"
+    },
+    "offsets": [
+        {"value": "4.243748739E-314",      "type": "DOUBLE", "offset": -32},
+        {"value": "1.294415004057E-312",    "type": "DOUBLE", "offset": -8},
+        {"value": "2.121752948E-314",       "type": "DOUBLE", "offset": 24},
+        {"value": "1.8010772393448525E-226", "type": "DOUBLE", "offset": 32},
+        {"value": "0.016666666666666666",   "type": "DOUBLE", "offset": 36}
+    ],
+    "writes": [
+        {"value": "150", "type": "DOUBLE", "offset": 4}
+    ]
+},
+        "时间功能2": {
+    "name": "宠物秘境结算",
+    "description": "修改时间为5",
+    "enable_msg": "时间·开启成功，共修改4个值",
+          "depends_on": "anti_ban",
+    "disable_msg": "重启游戏生效！",
+    "memory_range": "RANGE_C_ALLOC",
+    "search": {
+        "value": "-491520",
+        "type": "DWORD"
+    },
+    "offsets": [
+        {"value": "4.243748739E-314",      "type": "DOUBLE", "offset": -32},
+        {"value": "1.294415004057E-312",    "type": "DOUBLE", "offset": -8},
+        {"value": "2.121752948E-314",       "type": "DOUBLE", "offset": 24},
+        {"value": "1.8010772393448525E-226", "type": "DOUBLE", "offset": 32},
+        {"value": "0.016666666666666666",   "type": "DOUBLE", "offset": 36}
+    ],
+    "writes": [
+        {"value": "5", "type": "DOUBLE", "offset": 4}
+    ]
+}
+    }
+}
