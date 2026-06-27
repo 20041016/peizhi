@@ -1,13 +1,14 @@
 {
-    "version": "1.1",
-    "purchase_url": "https://aistudio.xiaomimimo.com/#/",
-    "app_update": {
-        "version_code": 2,
-        "version_name": "2.0",
-        "force": false,
-        "download_url": "https://你的下载链接.apk",
-        "update_msg": "发现新版本，请更新！"
-    },
+  "version": "1",
+  "app_update": {
+    "version_code": 2,
+    "version_name": "2.0",
+    "force": false,
+    "download_url": "https://你的下载地址",
+    "update_msg": "发现新版本，请更新！",
+    "purchase_url": "https://你的购买链接",
+    "purchase_text": "点我购买"
+  },
     "channels": [
         {"name": "当乐",   "package": "org.cocos2dx.zmxy.dl"},
         {"name": "TapTap", "package": "org.cocos2dx.zmxy.taptap"},
