@@ -174,7 +174,7 @@
             ]
         },
         "时间功能": {
-    "name": "宠物时间延迟",
+    "name": "宠物秘境延迟",
     "description": "修改时间为150",
     "enable_msg": "修改时间为150",
           "depends_on": "anti_ban",
@@ -196,7 +196,7 @@
     ]
 },
         "时间功能2": {
-    "name": "宠物时间结算",
+    "name": "宠物秘境结算",
     "description": "修改时间为5",
     "enable_msg": "时间·开启成功，共修改4个值",
           "depends_on": "anti_ban",
