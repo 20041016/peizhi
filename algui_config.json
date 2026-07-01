@@ -218,7 +218,7 @@
         {"value": "5", "type": "DOUBLE", "offset": 4}
     ]
 },
-{   "灵宠秒杀": {
+   "灵宠秒杀": {
     "name": "灵宠秒杀",
     "description": "选关卡界面开启",
     "enable_msg": "开启成功，共修改4个值",
